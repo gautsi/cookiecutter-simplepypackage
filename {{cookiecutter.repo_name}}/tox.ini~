@@ -6,7 +6,7 @@ setenv =
     PYTHONPATH = {toxinidir}:{toxinidir}/{{ cookiecutter.repo_name }}
 commands = 
     python setup.py test
-    py.test --doctest-module {{ cookiecutter.repo_name }}
+    py.test --doctest-module testrepo
 deps =
     pytest
     -r{toxinidir}/requirements.txt

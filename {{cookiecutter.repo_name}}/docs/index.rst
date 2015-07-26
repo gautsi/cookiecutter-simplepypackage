@@ -12,7 +12,6 @@ Contents:
    :maxdepth: 2
 
    readme
-   {{ cookiecutter.repo_name }}
 
 Indices and tables
 ==================
